@@ -1,0 +1,66 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CDAlertView (0.8.3)
+  - DGElasticPullToRefresh (1.1)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - ReachabilitySwift (4.2.1)
+  - Result (3.2.4)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SwiftMessages (5.0.1):
+    - SwiftMessages/App (= 5.0.1)
+  - SwiftMessages/App (5.0.1)
+  - SwiftyJSON (4.1.0)
+  - Windless (0.1.5)
+
+DEPENDENCIES:
+  - CDAlertView
+  - DGElasticPullToRefresh (from `https://github.com/sammygutierrez/DGElasticPullToRefresh`)
+  - Moya
+  - ReachabilitySwift
+  - SDWebImage
+  - SwiftMessages
+  - SwiftyJSON
+  - Windless
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CDAlertView
+    - Moya
+    - ReachabilitySwift
+    - Result
+    - SDWebImage
+    - SwiftMessages
+    - SwiftyJSON
+    - Windless
+
+EXTERNAL SOURCES:
+  DGElasticPullToRefresh:
+    :git: https://github.com/sammygutierrez/DGElasticPullToRefresh
+
+CHECKOUT OPTIONS:
+  DGElasticPullToRefresh:
+    :commit: f22cc61c56b03b275d15396f9bd555788779d9fa
+    :git: https://github.com/sammygutierrez/DGElasticPullToRefresh
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CDAlertView: 7ec9ce91ccd800a66a18f7fd92a9dea20c5326a2
+  DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  ReachabilitySwift: 35720ffea59c1c76d15f885be77fd33e33985427
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SwiftMessages: 32ce3cfc8388b41aae56ff4853cc752a20101147
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  Windless: c6b7d63ac3a0c7e6b241e316650d4605abf71894
+
+PODFILE CHECKSUM: c7593d5c4e345977fdda330b0ca4945caf8d9315
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Bold.ttf">
+            <string>DroidArabicKufi-Bold</string>
+        </array>
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GridHeadlineCell" id="F0z-2O-D9J" customClass="GridHeadlineCell" customModule="news" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="202" height="279"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="202" height="279"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MAU-JG-D9i">
+                        <rect key="frame" x="8" y="41" width="186" height="150"/>
+                        <color key="backgroundColor" white="0.88191731770000004" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="lQG-dN-Vz9"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isWindlessable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWb-BZ-pNf">
+                        <rect key="frame" x="8" y="8" width="186" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="mwl-zj-6Qy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="12"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                                <real key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isWindlessable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1H-ma-K7v">
+                        <rect key="frame" x="8" y="199" width="186" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="iYh-52-emM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="14"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isWindlessable" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                                <real key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jtj-vE-xkI">
+                        <rect key="frame" x="8" y="232" width="186" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="hQk-Ti-s06"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isWindlessable" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                                <real key="value" value="35"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="0.60000002379999995" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Z1H-ma-K7v" firstAttribute="top" secondItem="MAU-JG-D9i" secondAttribute="bottom" constant="8" id="3jb-Rm-Hij"/>
+                <constraint firstAttribute="trailing" secondItem="MAU-JG-D9i" secondAttribute="trailing" constant="8" id="Bn4-15-tau"/>
+                <constraint firstItem="MAU-JG-D9i" firstAttribute="leading" secondItem="F0z-2O-D9J" secondAttribute="leading" constant="8" id="CFy-uq-NTm"/>
+                <constraint firstItem="Jtj-vE-xkI" firstAttribute="top" secondItem="Z1H-ma-K7v" secondAttribute="bottom" constant="8" id="DGY-ZW-nQo"/>
+                <constraint firstItem="CWb-BZ-pNf" firstAttribute="top" secondItem="F0z-2O-D9J" secondAttribute="top" constant="8" id="JFW-em-01Z"/>
+                <constraint firstItem="Z1H-ma-K7v" firstAttribute="centerX" secondItem="F0z-2O-D9J" secondAttribute="centerX" id="O1E-UI-mHJ"/>
+                <constraint firstItem="MAU-JG-D9i" firstAttribute="top" secondItem="CWb-BZ-pNf" secondAttribute="bottom" constant="8" id="Q35-6g-o0c"/>
+                <constraint firstItem="Z1H-ma-K7v" firstAttribute="leading" secondItem="F0z-2O-D9J" secondAttribute="leading" constant="8" id="Vrk-6Y-q9C"/>
+                <constraint firstAttribute="trailing" secondItem="Jtj-vE-xkI" secondAttribute="trailing" constant="8" id="Zii-jZ-IHr"/>
+                <constraint firstItem="CWb-BZ-pNf" firstAttribute="centerX" secondItem="F0z-2O-D9J" secondAttribute="centerX" id="dQc-gk-7d4"/>
+                <constraint firstItem="CWb-BZ-pNf" firstAttribute="leading" secondItem="F0z-2O-D9J" secondAttribute="leading" constant="8" id="gP6-ft-Zq7"/>
+                <constraint firstAttribute="bottom" secondItem="Jtj-vE-xkI" secondAttribute="bottom" constant="8" id="imI-j2-cK9"/>
+                <constraint firstItem="MAU-JG-D9i" firstAttribute="centerX" secondItem="F0z-2O-D9J" secondAttribute="centerX" id="ohI-RL-WuP"/>
+                <constraint firstItem="Jtj-vE-xkI" firstAttribute="centerX" secondItem="F0z-2O-D9J" secondAttribute="centerX" id="vAb-EB-Slk"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="LOl-DQ-LP4"/>
+            <size key="customSize" width="202" height="279"/>
+            <connections>
+                <outlet property="headlineAuthor" destination="CWb-BZ-pNf" id="BYp-wK-I4e"/>
+                <outlet property="headlineDescription" destination="Jtj-vE-xkI" id="AdM-nw-9jJ"/>
+                <outlet property="headlineImage" destination="MAU-JG-D9i" id="rte-Jv-W4L"/>
+                <outlet property="headlineTitle" destination="Z1H-ma-K7v" id="trJ-pm-yYQ"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="94.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
